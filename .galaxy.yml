@@ -1,0 +1,9 @@
+namespace: naimd66
+name: webserver
+version: 1.0.0
+readme: README.md
+authors:
+  - Naim Demirel
+description: Installeert Apache, PHP en php-mysql
+license: MIT
+min_ansible_version: "2.9"
