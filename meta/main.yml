@@ -1,9 +1,20 @@
 galaxy_info:
   author: naimd66
-  description: Installeert Apache, PHP en PHP-MySQL
+  description: Install Apache, PHP en php-mysql op een webserver
+  company: Windesheim
   license: MIT
+
   min_ansible_version: 2.9
+
   platforms:
     - name: Ubuntu
       versions:
-        - all
+        - focal
+        - jammy
+
+  galaxy_tags:
+    - apache
+    - php
+    - webserver
+
+dependencies: []
